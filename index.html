@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>hover</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+		body{
+			background-color: #4f4f4f;
+		}
+		
+		.main{
+			width: 100%;
+			height: 100%;
+			margin: 0 auto;
+			padding: 50px;
+		}
+		
+		.box{
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+			background-color: #7ee49b;
+			line-height: 300px;
+			text-align: center;
+			-webkit-transition-duration: 1s;
+		}
+		
+		.box p{
+			color: #fff;
+			font-size: 30px;
+			font-family: sans-serif;
+		}
+		
+		.box:hover{
+			border-radius: 50%;
+			background-color: #ee5db7;
+			//-webkit-transform: rotate(3900deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		
+		<div class="box">
+			<p>hello!</p>
+		</div>
+		
+	</div>
+</body>
+</html>
